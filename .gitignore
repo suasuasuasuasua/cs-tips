@@ -28,4 +28,4 @@
 **/.apdisk
 
 #pdf
-**/.pdf
+books/**/*.pdf
