@@ -31,7 +31,7 @@ git init
 # tell git to track all files and folders in folder
 git add .
 # commit all changes
-git commit
+git commit [-m] "Commit message" # -m to add a commit message
 ```
 
 ## Creating Repos on GitHub
@@ -45,7 +45,7 @@ git commit
 ## Cloning Repos
 
 ```bash
-# Get the SSH link from Github
+# Get the SSH link from Github (NOT THE HTTP ONE)
 git clone git@github.com:<username>/<repo-name>.git
 ```
 
@@ -53,9 +53,10 @@ git clone git@github.com:<username>/<repo-name>.git
 
 ```bash
 # Connect local repo to the remote repository on GitHub
+# Grab this link from GitHub Repo > SSH > link
 git remote add origin git@github.com:<username>/<repo-name>.git
 # Set upstream branch so that we can push LOCAL changes to REMOTE repository
-# It might be 'master' or 'main', but if we run very first code block on the README, it will be 'main'
+# Might be main or master
 git push --set-upstream origin main
 # OR
 git push origin main
