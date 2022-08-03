@@ -7,11 +7,12 @@ Assume the following file structure.
 ├── README.md
 ├── file1.txt
 ├── file2.txt
-└── folder1
-    ├── file3.txt
-    └── file4.txt
+├── folder1
+│   ├── file3.txt
+│   └── file4.txt
+└── mermaid_dia.png
 
-1 directory, 5 files
+1 directory, 6 files
 ```
 
 Or if this is easier to visualize:
@@ -26,6 +27,7 @@ flowchart LR
     4 --> 41([file3.txt])
     4 --> 42([file4.txt])
   end
+  root --> 5([mermaid_dia.png])
 ```
 
 ## Improved [`bash`](https://github.com/ohmybash/oh-my-bash)
