@@ -62,8 +62,8 @@ git push --set-upstream origin main
 git push origin main
 ```
 
-## `.gitignore`
+## .gitignore
 
-1. Create a file called .gitignore at the root of the repository
+1. Create a file called `.gitignore` at the root of the repository
 2. Look at the [.gitignore templates](https://github.com/github/gitignore)
 3. Copy and paste the one you need based on the repository languages
