@@ -30,7 +30,7 @@ flowchart LR
   root --> 5([mermaid_dia.png])
 ```
 
-## Improved [`bash`](https://github.com/ohmybash/oh-my-bash)
+## Improved [bash](https://github.com/ohmybash/oh-my-bash)
 
 Set this up before anything else.
 
