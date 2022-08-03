@@ -15,7 +15,11 @@ Or if this is easier to visualize:
 
 ```mermaid
 graph LR
-  root[.] --> 1[README.md]
+
+  subgraph 1g[ /coding-tips/bash/ ]
+    root[.]
+  end
+  root --> 1[README.md]
   root --> 2[file1.txt]
   root --> 3[file2.txt]
   root --> 4[folder1]
