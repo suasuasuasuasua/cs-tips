@@ -2,17 +2,40 @@
 
 Assume the following file structure.
 
+```bash
+. # coding-tips/bash/
+├── file1.txt
+├── file2.txt
+├── folder1
+│   └── file3.txt
+└── README.md
+```
+
+Or if this is easier to visualize:
+
+```mermaid
+graph LR
+  root[.] --> 1[README.md]
+  root --> 2[file1.txt]
+  root --> 3[file2.txt]
+  root --> 4[folder1]
+  subgraph 4g[Example of file in folder]
+    4 --> 41[file3.txt]
+  end
+```
+
 ## Navigation
 
 - `~` refers to the home directory
 - `.` refers to the current directory
 - `..` refers to the parent directory
 
-- Relative pathing refers to the path **from your current directory**
-  - ``
-- Absolute pathing refers to the path from a defined starting point
-  - `/sua/folder1/file1.txt`
-  - `/~/folder1/file1.txt` (these are equivalent)
+If we are currently in `/coding-tips/bash`, to get to `file3.txt`, there are two ways to talk about where `file3.txt` is:
+
+- Relative pathing is the path **from your current directory**
+  - `./folder1/file3.txt`
+- Absolute pathing is the path from a **defined starting point**
+  - `/~/coding-tips/bash/folder1/file3.txt`
 
 ```bash
 # Move to home directory at /~/
@@ -46,7 +69,7 @@ mkdir folder1 folder2 folder3 ...
 
 ```bash
 # Remove a file
-rm file1
+rm file1.txt
 
 # Can't remove a folder in the same way
 # Need to use recursive flag
@@ -58,10 +81,10 @@ rm file1
 ## Moving and Renaming
 
 ```bash
-# To move around
+# To move a file or folder around
 mv my_file ./folder1/
 
-# To rename
+# To rename a file or folder
 mv old_file_name new_file_name
 ```
 
@@ -71,17 +94,14 @@ mv old_file_name new_file_name
 
 - `code [-r] <file or folder>` to open file or folder in VSCode in new window; `-r` to open in same window
 
-
 ## Generally Useful
 
 - Tab for autocompletion
-
 
 ## Key Shortcuts
 
 - `<Ctrl-c>` to cancel the current process or clear the current terminal line
 - `<Ctrl-l>` to clear the screen
-
 
 ## Installing packages
 
