@@ -1,4 +1,4 @@
-# `git` tips
+# git tips
 
 ## Git Config
 

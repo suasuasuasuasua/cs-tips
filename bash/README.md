@@ -1,4 +1,4 @@
-# `bash` basics
+# bash basics
 
 Assume the following file structure.
 
