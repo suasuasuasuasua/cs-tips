@@ -103,8 +103,6 @@ mv old_file_name new_file_name
 
 - Tab for autocompletion
 
-````
-
 ## Key Shortcuts
 
 - `<Ctrl-c>` to cancel the current process or clear the current terminal line
@@ -115,7 +113,7 @@ mv old_file_name new_file_name
 ```bash
 # Will need higher privileges for installing a package with apt
 sudo apt install <package name>
-````
+```
 
 ## Improved [`bash`](https://github.com/ohmybash/oh-my-bash)
 
