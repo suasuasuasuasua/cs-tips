@@ -15,7 +15,7 @@ Assume the following file structure.
 1 directory, 6 files
 ```
 
-Or if this is easier to visualize:
+Or if [this](mermaid_dia.png) is easier to visualize:
 
 ```mermaid
 flowchart LR
