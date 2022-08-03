@@ -18,16 +18,13 @@ Or if this is easier to visualize:
 
 ```mermaid
 flowchart LR
-  subgraph rootG[ coding-tips/bash/ ]
-    root[./ ]
-  end
-  root --> 1[README.md]
-  root --> 2[file1.txt]
-  root --> 3[file2.txt]
-  root --> 4[folder1]
+  root[[.]] --> 1([README.md])
+  root      --> 2([file1.txt])
+  root      --> 3([file2.txt])
+  root      ---- 4[[folder1]]
   subgraph 4g[Example of files in folder]
-    4 --> 41[file3.txt]
-    4 --> 42[file4.txt]
+    4 --> 41([file3.txt])
+    4 --> 42([file4.txt])
   end
 ```
 
