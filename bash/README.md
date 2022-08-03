@@ -16,7 +16,7 @@ Or if this is easier to visualize:
 ```mermaid
 graph LR
 
-  subgraph 1g[ /coding-tips/bash/ ]
+  subgraph 1g[ coding-tips/bash/ ]
     root[.]
   end
   root --> 1[README.md]
@@ -26,7 +26,6 @@ graph LR
   subgraph 4g[Example of file in folder]
     4 --> 41[file3.txt]
   end
-  click 1 "https://github.com/suasuasuasuasua/coding-tips/blob/main/bash/README.md"
 ```
 
 ## Navigation
@@ -35,7 +34,7 @@ graph LR
 - `.` refers to the current directory
 - `..` refers to the parent directory
 
-If we are currently in `/coding-tips/bash`, to get to `file3.txt`, there are two ways to talk about where `file3.txt` is:
+If we are currently in `coding-tips/bash/`, to get to `file3.txt`, there are two ways to talk about where `file3.txt` is:
 
 - Relative pathing is the path **from your current directory**
   - `./folder1/file3.txt`
