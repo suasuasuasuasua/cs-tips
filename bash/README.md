@@ -26,7 +26,7 @@ graph LR
   subgraph 4g[Example of file in folder]
     4 --> 41[file3.txt]
   end
-  click 1 "bash/README.md"
+  click 1 "https://github.com/suasuasuasuasua/coding-tips/blob/main/bash/README.md"
 ```
 
 ## Navigation
