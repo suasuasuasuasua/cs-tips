@@ -3,29 +3,44 @@
 Assume the following file structure.
 
 ```bash
-. # coding-tips/bash/
+.
+├── README.md
 ├── file1.txt
 ├── file2.txt
-├── folder1
-│   └── file3.txt
-└── README.md
+└── folder1
+    ├── file3.txt
+    └── file4.txt
+
+1 directory, 5 files
 ```
 
 Or if this is easier to visualize:
 
 ```mermaid
-graph LR
-
-  subgraph 1g[ coding-tips/bash/ ]
-    root[.]
+flowchart LR
+  subgraph rootG[ coding-tips/bash/ ]
+    root[./ ]
   end
   root --> 1[README.md]
   root --> 2[file1.txt]
   root --> 3[file2.txt]
   root --> 4[folder1]
-  subgraph 4g[Example of file in folder]
+  subgraph 4g[Example of files in folder]
     4 --> 41[file3.txt]
+    4 --> 42[file4.txt]
   end
+```
+
+## Improved [`bash`](https://github.com/ohmybash/oh-my-bash)
+
+Set this up before anything else.
+
+- New themes and cleaner look
+- Better autocompletion
+- Plugins
+
+```bash
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/ohmybash/oh-my-bash/master/tools/install.sh)"
 ```
 
 ## Navigation
@@ -67,6 +82,25 @@ mkdir folder1
 
 # You can also create many folders
 mkdir folder1 folder2 folder3 ...
+```
+
+## Listing files and folders
+
+```bash
+# List files and folders in current directory
+ls
+
+# List the contents of folder1
+ls ./folder1/
+
+# List all files including hidden ones
+ls -a
+
+# List all files on lines
+ls -l
+
+# List all files ON LINES and ALL HIDDEN ones
+ls -la
 ```
 
 ## Removing files and folders
@@ -112,14 +146,4 @@ mv old_file_name new_file_name
 ```bash
 # Will need higher privileges for installing a package with apt
 sudo apt install <package name>
-```
-
-## Improved [`bash`](https://github.com/ohmybash/oh-my-bash)
-
-- New themes and cleaner look
-- Better autocompletion
-- Plugins
-
-```bash
-bash -c "$(curl -fsSL https://raw.githubusercontent.com/ohmybash/oh-my-bash/master/tools/install.sh)"
 ```
