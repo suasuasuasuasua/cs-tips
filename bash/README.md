@@ -1,17 +1,24 @@
 # bash basics
 
-## Improved [bash](https://github.com/ohmybash/oh-my-bash)
 
-Set this up before anything else.
+<details>
+  <summary>
+    <h2>
+       <strong>Set this up before anything else! (expandable) </strong>
+    </h2> 
+  </summary>
 
-- New themes and cleaner look
-- Better autocompletion
-- Plugins
+  [Oh my bash!](https://github.com/ohmybash/oh-my-bash) includes:
+  
+  - New themes and cleaner look
+  - Better autocompletion
+  - Plugins
 
-```bash
-# Run this command in your terminal
-bash -c "$(curl -fsSL https://raw.githubusercontent.com/ohmybash/oh-my-bash/master/tools/install.sh)"
-```
+  ```bash
+  # Run this command in your terminal
+  bash -c "$(curl -fsSL https://raw.githubusercontent.com/ohmybash/oh-my-bash/master/tools/install.sh)"
+  ```
+</details>
 
 ---
 
@@ -30,7 +37,7 @@ Assume the following file structure.
 1 directory, 6 files
 ```
 
-Or if [this](mermaid_dia.png) is easier to visualize:
+Or [this](mermaid_dia.png) if it is easier to visualize.
 
 ```mermaid
 flowchart LR
