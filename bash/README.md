@@ -1,31 +1,27 @@
 # bash basics
 
 
-<details>
-  <summary>
-    <h2>
-       <strong>Set this up before anything else! (expandable) </strong>
-    </h2> 
-  </summary>
+## Set this up before anything else!
 
-  [Oh my bash!](https://github.com/ohmybash/oh-my-bash) includes:
-  
-  - New themes and cleaner look
-  - Better autocompletion
-  - Plugins
+[Oh my bash!](https://github.com/ohmybash/oh-my-bash) is a framework that manages your configuration, which includes:
 
-  ```bash
-  # Run this command in your terminal
-  bash -c "$(curl -fsSL https://raw.githubusercontent.com/ohmybash/oh-my-bash/master/tools/install.sh)"
-  ```
-</details>
+- New themes and cleaner look
+- Better autocompletion
+- Plugins
+
+```bash
+# Run this command in your terminal
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/ohmybash/oh-my-bash/master/tools/install.sh)"
+```
 
 ---
+
+## Sample File Structure
 
 Assume the following file structure.
 
 ```bash
-.
+. # coding-tips/bash/.
 ├── README.md
 ├── file1.txt
 ├── file2.txt
