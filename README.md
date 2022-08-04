@@ -41,13 +41,12 @@ Material will be updated regularly and tagged with unique symbols:
 
 ### Footnotes
 
-
-[^1]:
+[^1]:    
     **Essential**  
     Do these first  
-[^2]:
+[^2]:    
     **Work in Progress.**   
-    We are working on filling out these topics.
-[^3]:
+    We are working on filling out these topics.    
+[^3]:    
     **Coming Soon.**    
-    These topics are on the roadmap.
+    These topics are on the roadmap.      
