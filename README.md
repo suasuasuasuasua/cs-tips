@@ -8,10 +8,9 @@ Coding is for the boys.
 
 Material will be updated regularly and tagged with unique symbols:
 
-- !  [^1]
-- \*  [^2]
-- ?  [^3]
-
+- ! [^1]
+- \* [^2]
+- ? [^3]
 
 ## Languages
 
@@ -38,12 +37,6 @@ Material will be updated regularly and tagged with unique symbols:
 - [YouTube Channels](youtube/) ?
 - [Online Courses](onlinecourses/) ?
 
-[^1]:
-    **Essential.**
-    Do these first.
-[^2]:
-    **Work in Progress.**
-    We are working on filling out these topics.
-[^3]:
-    **Coming Soon.**
-    These topics are on the roadmap.
+[^1]: **Essential.** Do these first.
+[^2]: **Work in Progress.** We are working on filling out these topics.
+[^3]: **Coming Soon.** These topics are on the roadmap.
