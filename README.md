@@ -1,12 +1,37 @@
 # [coding-tips](https://suasuasuasuasua.github.io/coding-tips/)
 
-Coding tips for the boys
+Coding is for the boys.
 
-## General
-
-- [bash](bash/)
-- [git](git/)
+- [Discord](https://discord.gg/G8CUV5W6Km)
 
 ## Languages
 
-- **COMING SOON**
+- [`bash`](bash/) !*
+- [`python`](python/) ?
+- [`c++`](cpp/) ?
+
+## Markup Languages
+
+- [`markdown`](md/) ?
+
+## General
+
+- [`git`](git/) !*
+- [WSL](wsl/) !?
+
+## Tools
+
+- [Text Editors](texteditors/) !?
+- [IDEs](ides/) ?
+
+## Resources
+
+- [YouTube Channels](youtube/) ?
+- [Online Courses](onlinecourses/) ?
+
+
+### Legend
+
+- !   : **Essential**
+- \*  : **Work in Progress**
+- ?   : **Coming Soon**
