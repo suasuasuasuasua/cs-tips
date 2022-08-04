@@ -9,7 +9,7 @@ Coding is for the boys.
 Material will be updated regularly and tagged with unique symbols:
 
 - !  [^1]
-- \* [^2]
+- \*  [^2]
 - ?  [^3]
 
 
