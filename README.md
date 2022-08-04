@@ -45,7 +45,7 @@ Material will be updated regularly and tagged with unique symbols:
 [^1]:
     **Essential**  
     Do these first  
-[^2]: 
+[^2]:
     **Work in Progress.**   
     We are working on filling out these topics.
 [^3]:
