@@ -37,6 +37,17 @@ Material will be updated regularly and tagged with unique symbols:
 - [YouTube Channels](youtube/) ?
 - [Online Courses](onlinecourses/) ?
 
-[^1]: **Essential.** Do these first.
-[^2]: **Work in Progress.** We are working on filling out these topics.
-[^3]: **Coming Soon.** These topics are on the roadmap.
+---
+
+### Footnotes
+
+
+[^1]:
+    **Essential**  
+    Do these first  
+[^2]: 
+    **Work in Progress.**   
+    We are working on filling out these topics.
+[^3]:
+    **Coming Soon.**    
+    These topics are on the roadmap.
