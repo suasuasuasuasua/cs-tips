@@ -1,5 +1,20 @@
 # bash basics
 
+## Improved [bash](https://github.com/ohmybash/oh-my-bash)
+
+Set this up before anything else.
+
+- New themes and cleaner look
+- Better autocompletion
+- Plugins
+
+```bash
+# Run this command in your terminal
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/ohmybash/oh-my-bash/master/tools/install.sh)"
+```
+
+---
+
 Assume the following file structure.
 
 ```bash
@@ -30,30 +45,18 @@ flowchart LR
   root --> 5([mermaid_dia.png])
 ```
 
-## Improved [bash](https://github.com/ohmybash/oh-my-bash)
-
-Set this up before anything else.
-
-- New themes and cleaner look
-- Better autocompletion
-- Plugins
-
-```bash
-bash -c "$(curl -fsSL https://raw.githubusercontent.com/ohmybash/oh-my-bash/master/tools/install.sh)"
-```
-
 ## Navigation
 
 - `~` refers to the home directory
 - `.` refers to the current directory
 - `..` refers to the parent directory
 
-If we are currently in `coding-tips/bash/`, to get to `file3.txt`, there are two ways to talk about where `file3.txt` is:
+If we are currently in `~/coding-tips/bash/`, to get to `file3.txt`, there are two ways to talk about where `file3.txt` is:
 
 - Relative pathing is the path **from your current directory**
   - `./folder1/file3.txt`
 - Absolute pathing is the path from a **defined starting point**
-  - `/~/coding-tips/bash/folder1/file3.txt`
+  - `~/coding-tips/bash/folder1/file3.txt`
 
 ```bash
 # Move to home directory at /~/
@@ -63,7 +66,7 @@ cd
 cd folder1
 
 # Move one directory UP from the current directory
-cd ..
+cd ../
 ```
 
 ## Creating files and folders
