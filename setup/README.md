@@ -18,7 +18,7 @@ The vast majority of people run either Windows or MacOS on their PC.
 
 For the Windows users, sorry, you're going to have some extra steps to follow.
 
-The reasoning behind this is because programming is **much, much** easier on an Unix-like or Linux machine for a couple of reasons:
+The reasoning behind this is because programming is **much, much** easier on a Unix-like or Linux machine for a couple of reasons:
 
 - Package management
 - Open source and _free_
@@ -30,7 +30,7 @@ You don't really need to know why, and this might not make sense now, but trust 
 
 ### Windows
 
-For Windows users, like myself, there is a workaround to use Linux without [dual booting](https://www.freecodecamp.org/news/how-to-dual-boot-any-linux-distribution-with-windows/), unless you want to. [^1]
+For Windows users, like myself, there is a workaround for using Linux without [dual booting](https://www.freecodecamp.org/news/how-to-dual-boot-any-linux-distribution-with-windows/), unless you want to. [^1]
 
 [wsl](https://docs.microsoft.com/en-us/windows/wsl/install) is Microsoft's way of allowing us to run Linux alongside Windows. `wsl` is known as a **virtual machine**. [^2] Virtualization is software that allows you to *emulate* computers inside your real computer. You know how people sometimes emulate [Nintendo systems](https://yuzu-emu.org/)? [Same idea](https://www.reddit.com/r/explainlikeimfive/comments/tnv4ww/comment/i23ifs7/?utm_source=share&utm_medium=web2x&context=3).
 
@@ -79,7 +79,7 @@ Go to the [text editor section](#text-editors)
 
 ### MacOS
 
-I think Macs are over-hated, to be honest. Every Mac with the M1 chip and higher have been extremely performant, cool, and relatively inexpensive to **any other ultra-book in the market**.[^3]
+I think Macs are over-hated, to be honest. Every Mac with the M1 chip and higher has been extremely performant, cool, and relatively inexpensive to **any other ultra-book in the market**.[^3]
 
 Anyway, luckily for Mac users, also like myself, there isn't as much work that you need to do.
 
