@@ -142,12 +142,14 @@ Don't worry that my VSCode looks different than yours. I customized mine with th
 
 Go personalize your VSCode using the extension tab in the activity bar!!!
 
+Here are customizations that I alternate between. They are all equally loved.
+
 Themes:
 
-- [Ayu](https://marketplace.visualstudio.com/items?itemName=teabyii.ayu)
-- [Apprentice](https://marketplace.visualstudio.com/items?itemName=amariampolskiy.theme-apprentice)
-- [Moonlight](https://marketplace.visualstudio.com/items?itemName=atomiks.moonlight)
-- [Nord](https://marketplace.visualstudio.com/items?itemName=arcticicestudio.nord-visual-studio-code)
+- [Ayu](https://marketplace.visualstudio.com/items?itemName=teabyii.ayu) (Light/Dark)
+- [Apprentice](https://marketplace.visualstudio.com/items?itemName=amariampolskiy.theme-apprentice) (Dark)
+- [Moonlight](https://marketplace.visualstudio.com/items?itemName=atomiks.moonlight) (Dark)
+- [Nord](https://marketplace.visualstudio.com/items?itemName=arcticicestudio.nord-visual-studio-code) (Dark)
 
 Icon themes:
 
@@ -159,10 +161,11 @@ Fonts:
 - [Cascadia Code](https://github.com/microsoft/cascadia-code)
 - [Jetbrains Mono](https://www.jetbrains.com/lp/mono/)
 
+---
 
-Now your machine is ready to program! Or let me know if you have issues or questions.
+At this point, this is all you really need; plus, your machine is now ready to program!
 
-Head to the other sections or talk to me to see where you should go next.
+In the future, I'll add a dedicated VSCode section to cover useful extensions, settings, and keyboard shortcuts.
 
 ---
 
