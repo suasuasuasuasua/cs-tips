@@ -44,32 +44,32 @@ Here are the highlights:
 
 1. Open up `powershell` from the start menu **as an Administrator**.
 
-    - ![Launch Powershell as Admin](./images/powershell_admin.png)
+   ![Launch Powershell as Admin](./images/powershell_admin.png)
 
 2. Run the following command.
 
-    - By default, the Ubuntu Linux distribution will be downloaded and installed.
+   - By default, the Ubuntu Linux distribution will be downloaded and installed.
 
-    ```powershell
-    # Install WSL
-    wsl --install
-    ```
+   ```powershell
+   # Install WSL
+   wsl --install
+   ```
 
-    **You'll be prompted to restart your machine in between the steps.**
+   **You'll be prompted to restart your machine in between the steps.**
 
-    When you are back, open up WSL in your terminal by calling the command.
+   When you are back, open up WSL in your terminal by calling the command.
 
-    ![WSl command in powershell](./images/run_wsl.png)
+   ![WSl command in powershell](./images/run_wsl.png)
 
 3. Enter a username and password when prompted.
 
-    - For the username:
-      - No spaces
-      - No uppercase
-      - Mine is just _sua_
-    - For the password:
-      - Doesn't need to be hard to crack
-      - Mine is literally 'asdf' so I can enter it quickly
+   - For the username:
+     - No spaces
+     - No uppercase
+     - Mine is just _sua_
+   - For the password:
+     - Doesn't need to be hard to crack
+     - Mine is literally 'asdf' so I can enter it quickly
 
 4. You're done!
 
@@ -118,22 +118,22 @@ Mac users, [continue this way](#done); Windows users, read the next section.
 
 1. The last thing that Windows users need to do is go to the Extensions tab, then download the Remote - WSL extension.
 
-    ![WSL extension](./images/wsl_extension.png)
+   ![WSL extension](./images/wsl_extension.png)
 
 2. From now on, launch your VSCode in `wsl`.
 
-    Either click the double caret in the bottom...
+   Either click the double caret in the bottom...
 
-    ![Double caret](./images/double_caret.png)
-    ![New WSL](./images/new_wsl.png)
+   ![Double caret](./images/double_caret.png)
+   ![New WSL](./images/new_wsl.png)
 
-    Or the computer with the double caret in the activity bar, then click your Linux distribution. I have Debian only because I've used it in the past.
+   Or the computer with the double caret in the activity bar, then click your Linux distribution. I have Debian only because I've used it in the past.
 
-    ![Launch in WSL](./images/remote_explorer.png)
+   ![Launch in WSL](./images/remote_explorer.png)
 
-    You'll know you are in `wsl` when the bottom left corner, double caret icon looks like this.
+   You'll know you are in `wsl` when the bottom left corner, double caret icon looks like this.
 
-    ![WSl online](./images/wsl_online.png)
+   ![WSl online](./images/wsl_online.png)
 
 ## Done
 
