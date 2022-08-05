@@ -32,13 +32,13 @@ You don't really need to know why, and this might not make sense now, but trust 
 
 For Windows users, like myself, there is a workaround to use Linux without [dual booting](https://www.freecodecamp.org/news/how-to-dual-boot-any-linux-distribution-with-windows/), unless you want to. [^1]
 
-[wsl](https://docs.microsoft.com/en-us/windows/wsl/install) is Windows' way of allowing us to run Linux alongside Windows. `wsl` is known as a **virtual machine** [^2]
+[wsl](https://docs.microsoft.com/en-us/windows/wsl/install) is Microsoft's way of allowing us to run Linux alongside Windows. `wsl` is known as a **virtual machine**. [^2] Virtualization is software that allows you to *emulate* computers inside your real computer. You know how people sometimes emulate [Nintendo systems](https://yuzu-emu.org/)? [Same idea](https://www.reddit.com/r/explainlikeimfive/comments/tnv4ww/comment/i23ifs7/?utm_source=share&utm_medium=web2x&context=3).
 
 Here are the highlights:
 
 - You can use your Windows machine as normal
 - You don't have to learn a new operating system or graphical interface (_whew_)
-- All of your work in `wsl` is **sandboxed**, meaning that if you mess something up really badly, you can delete and reinstall a fresh version in minutes
+- All of your work in `wsl` is **sandboxed**, meaning that if you mess something up badly, you can delete and reinstall a fresh version in minutes
   - Imagine resetting your Windows machine (which takes hours) every time you messed up
   - Along this line, you can delete `wsl` altogether if you decide you're done with programming; no need to reformat your SSD
 
@@ -48,7 +48,7 @@ Here are the highlights:
 
 2. Run the following command.
 
-   - By default, the Ubuntu Linux distribution will be downloaded and installed.
+   By default, the Ubuntu Linux distribution will be downloaded and installed.
 
    ```powershell
    # Install WSL
@@ -62,6 +62,8 @@ Here are the highlights:
    ![WSl command in powershell](./images/run_wsl.png)
 
 3. Enter a username and password when prompted.
+
+   ![Unix User and Password](./images/user_pass.png)
 
    - For the username:
      - No spaces
@@ -96,9 +98,7 @@ Plus, there's a lot of documentation online for `brew` and development on MacOS 
 
 2. You're done!
 
-That's it for MacOS.
-
-Seriously.
+   Seriously.
 
 ---
 
@@ -115,6 +115,8 @@ Download and install the one matching your operating system.
 Mac users, [continue this way](#done); Windows users, read the next section.
 
 ### VSCode for Windows Users
+
+Don't worry that my VSCode looks different than yours. I customized mine with themes to make it stand out and expressive of me.
 
 1. The last thing that Windows users need to do is go to the Extensions tab, then download the Remote - WSL extension.
 
@@ -136,6 +138,27 @@ Mac users, [continue this way](#done); Windows users, read the next section.
    ![WSl online](./images/wsl_online.png)
 
 ## Done
+
+
+Go personalize your VSCode using the extension tab in the activity bar!!!
+
+Themes:
+
+- [Ayu](https://marketplace.visualstudio.com/items?itemName=teabyii.ayu)
+- [Apprentice](https://marketplace.visualstudio.com/items?itemName=amariampolskiy.theme-apprentice)
+- [Moonlight](https://marketplace.visualstudio.com/items?itemName=atomiks.moonlight)
+- [Nord](https://marketplace.visualstudio.com/items?itemName=arcticicestudio.nord-visual-studio-code)
+
+Icon themes:
+
+- [Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme)
+
+Fonts:
+
+- [Fira Code](https://github.com/tonsky/FiraCode)
+- [Cascadia Code](https://github.com/microsoft/cascadia-code)
+- [Jetbrains Mono](https://www.jetbrains.com/lp/mono/)
+
 
 Now your machine is ready to program! Or let me know if you have issues or questions.
 
