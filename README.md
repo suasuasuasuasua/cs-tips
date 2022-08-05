@@ -1,18 +1,29 @@
 # [coding-tips](https://suasuasuasuasua.github.io/coding-tips/)
 
-## Introduction
+<p align="center">
+  <img src="https://i.kym-cdn.com/photos/images/newsfeed/001/562/650/cd0.jpg" />
+</p>
 
 Coding is for the boys.
 
 - [Discord](https://discord.gg/G8CUV5W6Km)
+- [My own Odin Project journey](https://github.com/suasuasuasuasua/odin-project)
 
-Material will be updated regularly and tagged with unique symbols:
+---
+
+Material will be updated regularly and tagged:
 
 - ! [^1]
 - \* [^2]
 - ? [^3]
 
-## Languages
+---
+
+## Setup
+
+- [Setup](setup/) !?
+
+## Programming Languages
 
 - [bash](bash/) !*
 - [python](python/) ?
@@ -25,7 +36,6 @@ Material will be updated regularly and tagged with unique symbols:
 ## General
 
 - [git](git/) !*
-- [WSL](wsl/) !?
 
 ## Tools
 
@@ -36,6 +46,10 @@ Material will be updated regularly and tagged with unique symbols:
 
 - [YouTube Channels](youtube/) ?
 - [Online Courses](onlinecourses/) ?
+
+## Advanced
+
+- [vim](vim/) ?
 
 ---
 
