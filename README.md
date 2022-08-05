@@ -19,7 +19,7 @@ Material will be updated regularly and tagged:
 
 ## Setup (IF YOU ARE NEW, DO THIS FIRST)
 
-- [Setup](setup/) !*
+- [Setup](setup/) !
 
 ## Programming Languages
 
@@ -34,6 +34,7 @@ Material will be updated regularly and tagged:
 ## General
 
 - [git](git/) !*
+- [GitHub](github/) !*
 
 ## Tools
 
