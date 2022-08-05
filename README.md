@@ -19,7 +19,7 @@ Material will be updated regularly and tagged:
 
 ---
 
-## Setup
+## Setup (IF YOU ARE NEW, DO THIS FIRST)
 
 - [Setup](setup/) !?
 
