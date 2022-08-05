@@ -17,8 +17,6 @@ Material will be updated regularly and tagged:
 - \* [^2]
 - ? [^3]
 
----
-
 ## Setup (IF YOU ARE NEW, DO THIS FIRST)
 
 - [Setup](setup/) !*
