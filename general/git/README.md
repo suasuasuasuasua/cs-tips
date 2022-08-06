@@ -33,6 +33,8 @@ gitGraph
   commit
 ```
 
+![Basic History](./images/basic_history.png)
+
 Here are the highlights:
 
 - The `main` branch holds all of the code
@@ -62,7 +64,7 @@ gitGraph
   commit id: "merged testing"
 ```
 
-(GitHub is having trouble rendering the tags sideways.)
+![Branch History](./images/branch_history.png)
 
 Here are the highlights:
 
@@ -83,7 +85,7 @@ Here are the highlights:
   - Watch out! There could be **merge conflicts**, so we'll have to reconcile those
 - Finally, `main` is the last branch
 
-#### Important Convention
+#### Website Example
 
 Let's say we're creating a simple website.
 
@@ -114,7 +116,7 @@ gitGraph
   merge buttons
 ```
 
-(GitHub is having trouble rendering the tags sideways.)
+![Website History](./images/website_history.png)
 
 Here's the breakdown:
 
