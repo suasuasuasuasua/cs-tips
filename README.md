@@ -23,12 +23,12 @@ Material will be updated regularly and tagged:
 
 ## Programming Languages
 
-- [bash](./programming-languages/bash/) !*
-<!-- - [c](c/) ? -->
-<!-- - [c++](cpp/) ? -->
-<!-- - [c#](cs/) ? -->
-<!-- - [java](java/) ? -->
-<!-- - [javascript](javascript/) ? -->
+- [bash](./programming-languages/bash/) !\*
+  <!-- - [c](c/) ? -->
+  <!-- - [c++](cpp/) ? -->
+  <!-- - [c#](cs/) ? -->
+  <!-- - [java](java/) ? -->
+  <!-- - [javascript](javascript/) ? -->
 - [python](./programming-languages/python/) !?
 
 ## Markup Languages
@@ -40,7 +40,7 @@ Material will be updated regularly and tagged:
 ## General
 
 - [git](./general/git/) !
-<!-- - [GitHub](github/) !? -->
+- [GitHub](./general/github/) !?
 
 ## Tools
 
