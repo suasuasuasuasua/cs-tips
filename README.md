@@ -24,17 +24,24 @@ Material will be updated regularly and tagged:
 ## Programming Languages
 
 - [bash](bash/) !*
-- [python](python/) ?
+- [c](c/) ?
 - [c++](cpp/) ?
+- [c#](cs/) ?
+- [java](java/) ?
+- [javascript](javascript/) ?
+- [python](python/) !?
 
 ## Markup Languages
 
 - [markdown](md/) ?
+- [html & css](htmlncss/) ?
+- [LaTeX](latex/) ?
 
 ## General
 
-- [git](git/) !*
-- [GitHub](github/) !*
+- [git](git/) !
+
+- [GitHub](github/) !?
 
 ## Tools
 
@@ -49,6 +56,7 @@ Material will be updated regularly and tagged:
 ## Advanced
 
 - [vim](vim/) ?
+- [Discrete Math](discretemath/) ?
 
 ---
 
