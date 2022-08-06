@@ -1,4 +1,4 @@
-# bash basics
+# bash
 
 
 ## Set this up before anything else!

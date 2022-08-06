@@ -7,7 +7,7 @@
 Coding is for the boys.
 
 - [Discord](https://discord.gg/G8CUV5W6Km)
-- [My own Odin Project journey](https://github.com/suasuasuasuasua/odin-project)
+- [Check out the Odin Project journey](https://github.com/suasuasuasuasua/odin-project)
 
 ---
 
@@ -23,40 +23,39 @@ Material will be updated regularly and tagged:
 
 ## Programming Languages
 
-- [bash](bash/) !*
-- [c](c/) ?
-- [c++](cpp/) ?
-- [c#](cs/) ?
-- [java](java/) ?
-- [javascript](javascript/) ?
-- [python](python/) !?
+- [bash](./programming-languages/bash/) !*
+<!-- - [c](c/) ? -->
+<!-- - [c++](cpp/) ? -->
+<!-- - [c#](cs/) ? -->
+<!-- - [java](java/) ? -->
+<!-- - [javascript](javascript/) ? -->
+- [python](./programming-languages/python/) !?
 
 ## Markup Languages
 
-- [markdown](md/) ?
-- [html & css](htmlncss/) ?
-- [LaTeX](latex/) ?
+<!-- - [markdown](md/) ? -->
+<!-- - [html and css](htmlncss/) ? -->
+<!-- - [LaTeX](latex/) ? -->
 
 ## General
 
-- [git](git/) !
-
-- [GitHub](github/) !?
+- [git](./general/git/) !
+<!-- - [GitHub](github/) !? -->
 
 ## Tools
 
-- [Text Editors](texteditors/) !?
-- [IDEs](ides/) ?
+<!-- - [Text Editors](texteditors/) !? -->
+<!-- - [IDEs](ides/) ? -->
 
 ## Resources
 
-- [YouTube Channels](youtube/) ?
-- [Online Courses](onlinecourses/) ?
+<!-- - [YouTube Channels](youtube/) ? -->
+<!-- - [Online Courses](onlinecourses/) ? -->
 
 ## Advanced
 
-- [vim](vim/) ?
-- [Discrete Math](discretemath/) ?
+<!-- - [vim](vim/) ? -->
+<!-- - [Discrete Math](discretemath/) ? -->
 
 ---
 

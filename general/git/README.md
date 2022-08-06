@@ -1,8 +1,8 @@
-# git tips
-
-## Git Config
+# git
 
 > **DO THE FIRST TWO ON A NEW MACHINE**
+
+## Git Config
 
 ```bash
 git config --global user.name "Your Name"
