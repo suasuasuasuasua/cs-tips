@@ -23,6 +23,7 @@ The place where we store our code is called `git` repository, or a repo for shor
 Consider this basic git repo.
 
 ```mermaid
+%%{init: { 'logLevel': 'debug', 'theme': 'base', 'gitGraph': {'rotateCommitLabel': true}} }%%
 gitGraph
   commit
   commit
@@ -60,6 +61,8 @@ gitGraph
   merge testing
   commit id: "merged testing"
 ```
+
+(GitHub is having trouble rendering the tags sideways.)
 
 Here are the highlights:
 
@@ -111,6 +114,8 @@ gitGraph
   merge buttons
 ```
 
+(GitHub is having trouble rendering the tags sideways.)
+
 Here's the breakdown:
 
 - Before anything, note that all of the commits have descriptive messages
@@ -140,9 +145,9 @@ Also, branching can help us work organize and compartmentalize our work, making 
 
 Finally, using [GitHub](../github/), a couple important things are possible:
 
-  1. You can save your work online, then sync your code across many machines; no longer will you be tied down to one computer
-  2. You can work together with friends, students, or coworkers; you can avoid the nightmare of sharing files via Google Drive or email (_shudder_)
-  3. You can share your work and take pride in how your projects have developed over time
+1. You can save your work online, then sync your code across many machines; no longer will you be tied down to one computer
+2. You can work together with friends, students, or coworkers; you can avoid the nightmare of sharing files via Google Drive or email (_shudder_)
+3. You can share your work and take pride in how your projects have developed over time
 
 ## Git Config
 
