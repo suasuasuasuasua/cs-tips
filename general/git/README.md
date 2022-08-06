@@ -33,8 +33,6 @@ gitGraph
   commit
 ```
 
-![Basic History](./images/basic_history.png)
-
 Here are the highlights:
 
 - The `main` branch holds all of the code
@@ -63,8 +61,6 @@ gitGraph
   merge testing
   commit id: "merged testing"
 ```
-
-![Branch History](./images/branch_history.png)
 
 Here are the highlights:
 
@@ -115,8 +111,6 @@ gitGraph
   checkout main
   merge buttons
 ```
-
-![Website History](./images/website_history.png)
 
 Here's the breakdown:
 
