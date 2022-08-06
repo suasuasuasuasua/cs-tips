@@ -48,6 +48,7 @@ Here are the highlights:
 This repo is a little more interesting from the previous.
 
 ```mermaid
+%%{init: { 'logLevel': 'debug', 'theme': 'base', 'gitGraph': {'rotateCommitLabel': true}} }%%
 gitGraph
   commit id: "changed something"
   commit id: "changed something else"
@@ -86,13 +87,14 @@ Let's say we're creating a simple website.
 The `git` repo might look like the following.
 
 ```mermaid
+%%{init: { 'logLevel': 'debug', 'theme': 'base', 'gitGraph': {'rotateCommitLabel': true}} }%%
 gitGraph
   commit id: "Initial Setup"
   commit id: "Added Scaffolding to Website"
   branch buttons
   commit id: "Added Button Scaffolding"
   branch animations
-  commit id: "Animiation Scaffolding"
+  commit id: "Animation Scaffolding"
   checkout buttons
   commit id: "Added Styling to Button"
   commit id: "Added Sound to Button"

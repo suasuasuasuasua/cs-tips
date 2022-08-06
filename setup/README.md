@@ -32,7 +32,7 @@ You don't really need to know why, and this might not make sense now, but trust 
 
 For Windows users, like myself, there is a workaround for using Linux without [dual booting](https://www.freecodecamp.org/news/how-to-dual-boot-any-linux-distribution-with-windows/), unless you want to.[^1]
 
-[wsl](https://docs.microsoft.com/en-us/windows/wsl/install) is Microsoft's way of allowing us to run Linux alongside Windows. `wsl` is known as a **virtual machine**.[^2] Virtualization is software that allows you to *emulate* computers inside your real computer. You know how people sometimes emulate [Nintendo systems](https://yuzu-emu.org/)? [Same idea](https://www.reddit.com/r/explainlikeimfive/comments/tnv4ww/comment/i23ifs7/?utm_source=share&utm_medium=web2x&context=3).
+[wsl](https://docs.microsoft.com/en-us/windows/wsl/install) is Microsoft's way of allowing us to run Linux alongside Windows. `wsl` is known as a **virtual machine**.[^2] Virtualization is software that allows you to _emulate_ computers inside your real computer. You know how people sometimes emulate [Nintendo systems](https://yuzu-emu.org/)? [Same idea](https://www.reddit.com/r/explainlikeimfive/comments/tnv4ww/comment/i23ifs7/?utm_source=share&utm_medium=web2x&context=3).
 
 Here are the highlights:
 
@@ -138,7 +138,6 @@ Don't worry that my VSCode looks different than yours. I customized mine with th
    ![WSl online](./images/wsl_online.png)
 
 ## Done
-
 
 Go personalize your VSCode using the extension tab in the activity bar!!!
 
