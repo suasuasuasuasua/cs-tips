@@ -5,7 +5,7 @@
     - [Basic](#basic)
     - [Branching](#branching)
     - [Website Example](#website-example)
-  - [Conclusion](#conclusion)
+  - [Takeaways](#takeaways)
 - [Git Configurations](#git-configurations)
   - [Local Git Repos](#local-git-repos)
   - [Set up SSH for GitHub](#set-up-ssh-for-github)
@@ -144,7 +144,7 @@ Here's the breakdown:
 - `buttons` and `index` are merged into `main`
   - Note that we do this one by one[^1]
 
-### Conclusion
+### Takeaways
 
 The main takeaway is that `git` can help us develop efficiently.
 
