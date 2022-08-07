@@ -1,5 +1,20 @@
 # git
 
+- [Introduction](#introduction)
+  - [Visualization](#visualization)
+    - [Basic](#basic)
+    - [Branching](#branching)
+    - [Website Example](#website-example)
+  - [Conclusion](#conclusion)
+- [Git Config](#git-config)
+- [Set up SSH for Git](#set-up-ssh-for-git)
+- [Creating Git Repos LOCALLY](#creating-git-repos-locally)
+- [Creating Repos on GitHub](#creating-repos-on-github)
+- [Cloning Repos](#cloning-repos)
+- [Pushing and Pulling Changes](#pushing-and-pulling-changes)
+- [.gitignore](#gitignore)
+  - [Footnotes](#footnotes)
+
 ## Introduction
 
 `git` is known as a version control system or VCS.
