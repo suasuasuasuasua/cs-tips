@@ -1,5 +1,15 @@
 # Setup
 
+- [Introduction](#introduction)
+- [Tools](#tools)
+  - [WSL for Windows](#wsl-for-windows)
+  - [brew for MacOS](#brew-for-macos)
+- [Text Editor](#text-editor)
+  - [VSCode for Windows Users](#vscode-for-windows-users)
+- [Setup Finished (for now)](#setup-finished-for-now)
+  - [Themes](#themes)
+- [Footnotes](#footnotes)
+
 ## Introduction
 
 I'll start by saying **congratulations** for beginning and taking the first step in learning how to program. It's daunting, to say the least, but what in life isn't? Making friends, exercising at the gym, going on runs and hikes, etc. is challenging, but in the long, it is _rewarding_.
@@ -12,7 +22,7 @@ I **promise** it will be worthwhile.
 
 ---
 
-## Operating System
+## Tools
 
 The vast majority of people run either Windows or MacOS on their PC.
 
@@ -28,11 +38,11 @@ The reasoning behind this is because programming is **much, much** easier on a U
 
 You don't really need to know why, and this might not make sense now, but trust me on this. Pure Windows is a pain to develop on.
 
-### Windows
+### WSL for Windows
 
 For Windows users, like myself, there is a workaround for using Linux without [dual booting](https://www.freecodecamp.org/news/how-to-dual-boot-any-linux-distribution-with-windows/), unless you want to.[^1]
 
-[wsl](https://docs.microsoft.com/en-us/windows/wsl/install) is Microsoft's way of allowing us to run Linux alongside Windows. `wsl` is known as a **virtual machine**.[^2] Virtualization is software that allows you to *emulate* computers inside your real computer. You know how people sometimes emulate [Nintendo systems](https://yuzu-emu.org/)? [Same idea](https://www.reddit.com/r/explainlikeimfive/comments/tnv4ww/comment/i23ifs7/?utm_source=share&utm_medium=web2x&context=3).
+[wsl](https://docs.microsoft.com/en-us/windows/wsl/install) is Microsoft's way of allowing us to run Linux alongside Windows. `wsl` is known as a **virtual machine**.[^2] Virtualization is software that allows you to _emulate_ computers inside your real computer. You know how people sometimes emulate [Nintendo systems](https://yuzu-emu.org/)? [Same idea](https://www.reddit.com/r/explainlikeimfive/comments/tnv4ww/comment/i23ifs7/?utm_source=share&utm_medium=web2x&context=3).
 
 Here are the highlights:
 
@@ -77,7 +87,7 @@ Here are the highlights:
 
 Go to the [text editor section](#text-editors)
 
-### MacOS
+### brew for MacOS
 
 I think Macs are over-hated, to be honest. Every Mac with the M1 chip and higher has been extremely performant, cool, and relatively inexpensive to **any other ultra-book in the market**.[^3]
 
@@ -100,9 +110,9 @@ Plus, there's a lot of documentation online for `brew` and development on MacOS 
 
    Seriously.
 
----
+<!-- TODO think of more tools to add; however, aim for minimalism for beginners -->
 
-## Text Editors
+## Text Editor
 
 Now that you're done setting up all the basic tools I can think of, you're going to need a way to write your code.
 
@@ -137,8 +147,13 @@ Don't worry that my VSCode looks different than yours. I customized mine with th
 
    ![WSl online](./images/wsl_online.png)
 
-## Done
+## Setup Finished (for now)
 
+At this point, this is all you really need; plus, your machine is now ready to program!
+
+In the future, I'll add a dedicated VSCode section to cover useful extensions, settings, and keyboard shortcuts.
+
+### Themes
 
 Go personalize your VSCode using the extension tab in the activity bar!!!
 
@@ -163,13 +178,7 @@ Fonts:
 
 ---
 
-At this point, this is all you really need; plus, your machine is now ready to program!
-
-In the future, I'll add a dedicated VSCode section to cover useful extensions, settings, and keyboard shortcuts.
-
----
-
-### Footnotes
+## Footnotes
 
 [^1]: Dual-booting can be faster because you allow Linux to use all resources like RAM and CPU; with our approach of using a virtual machine, you'll be sharing these resources between the _real_ and _fake_ computer, meaning that things can slow down if your computer is not powerful.
 [^2]: You can think of a virtual machine as a fake _computer_ running inside your computer. It has its own operating system, files, and uses the real computer's hardware like memory, storage, and input/output.
