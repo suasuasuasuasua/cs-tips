@@ -6,9 +6,9 @@
     - [Branching](#branching)
     - [Website Example](#website-example)
   - [Conclusion](#conclusion)
-- [Git Config](#git-config)
-- [Set up SSH for Git](#set-up-ssh-for-git)
-- [Creating Git Repos LOCALLY](#creating-git-repos-locally)
+- [Git Configurations](#git-configurations)
+  - [Set up SSH for Git](#set-up-ssh-for-git)
+- [Local Git Repos](#local-git-repos)
 - [Creating Repos on GitHub](#creating-repos-on-github)
 - [Cloning Repos](#cloning-repos)
 - [Pushing and Pulling Changes](#pushing-and-pulling-changes)
@@ -160,7 +160,7 @@ Finally, using [GitHub](../github/), a couple important things are possible:
 2. You can work together with friends, students, or coworkers; you can avoid the nightmare of sharing files via Google Drive or email (_shudder_)
 3. You can share your work and take pride in how your projects have developed over time
 
-## Git Config
+## Git Configurations
 
 ```bash
 git config --global user.name "Your Name"
@@ -170,7 +170,7 @@ git config --global color.ui auto
 git config --global submodule.recurse true
 ```
 
-## Set up SSH for Git
+### Set up SSH for Git
 
 ```bash
 # Generate SSH key on local computer
@@ -181,7 +181,7 @@ ssh-keygen -t ed25519 -C <youremail>
 cat ~/.ssh/id_ed25519.pub
 ```
 
-## Creating Git Repos LOCALLY
+## Local Git Repos
 
 ```bash
 # create local git repo in current folder
@@ -191,6 +191,8 @@ git add .
 # commit all changes
 git commit [-m] "Commit message" # -m to add a commit message
 ```
+
+<!-- TODO move these to GitHub section -->
 
 ## Creating Repos on GitHub
 
@@ -219,6 +221,8 @@ git push --set-upstream origin main
 # OR
 git push origin main
 ```
+
+<!-- TODO move these to GitHub section END -->
 
 ## .gitignore
 
