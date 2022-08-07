@@ -1,5 +1,9 @@
 # GitHub
 
+- [Introduction](#introduction)
+- [Setup](#setup)
+  - [Create An Account](#create-an-account)
+
 ## Introduction
 
 GitHub is the place where all of your `git` repositories will be stored online
@@ -16,7 +20,9 @@ Here's what you need to know:
 - The Standard
   - Share your GitHub with your employer
 
-## Sign Up
+## Setup
+
+### Create An Account
 
 Let's begin by signing up.
 
