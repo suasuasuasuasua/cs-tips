@@ -11,6 +11,8 @@ Coding is for the boys.
 
 ---
 
+I am testing GitHub issues and pull requests.
+
 Material will be updated regularly and tagged:
 
 - ! [^1]
