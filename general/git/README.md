@@ -7,13 +7,13 @@
     - [Website Example](#website-example)
   - [Conclusion](#conclusion)
 - [Git Configurations](#git-configurations)
-  - [Set up SSH for Git](#set-up-ssh-for-git)
-- [Local Git Repos](#local-git-repos)
-- [Creating Repos on GitHub](#creating-repos-on-github)
-- [Cloning Repos](#cloning-repos)
-- [Pushing and Pulling Changes](#pushing-and-pulling-changes)
-- [.gitignore](#gitignore)
-  - [Footnotes](#footnotes)
+  - [Local Git Repos](#local-git-repos)
+  - [Set up SSH for GitHub](#set-up-ssh-for-github)
+  - [Creating Repos on GitHub](#creating-repos-on-github)
+  - [Cloning Repos](#cloning-repos)
+  - [Pushing and Pulling Changes](#pushing-and-pulling-changes)
+  - [.gitignore](#gitignore)
+- [Footnotes](#footnotes)
 
 ## Introduction
 
@@ -163,25 +163,17 @@ Finally, using [GitHub](../github/), a couple important things are possible:
 ## Git Configurations
 
 ```bash
+# Set your name and email so that commits can be tied to you
 git config --global user.name "Your Name"
 git config --global user.email "yourname@example.com"
+
+# Don't worry too much about these; just set them
 git config --global init.defaultBranch main
 git config --global color.ui auto
 git config --global submodule.recurse true
 ```
 
-### Set up SSH for Git
-
-```bash
-# Generate SSH key on local computer
-# Remember to replace <youremail> (no carets)
-ssh-keygen -t ed25519 -C <youremail>
-# GitHub -> Settings -> SSH and GPG keys -> New SSH Key
-# Copy and paste this
-cat ~/.ssh/id_ed25519.pub
-```
-
-## Local Git Repos
+### Local Git Repos
 
 ```bash
 # create local git repo in current folder
@@ -192,9 +184,22 @@ git add .
 git commit [-m] "Commit message" # -m to add a commit message
 ```
 
-<!-- TODO move these to GitHub section -->
+<!-- TODO Move these to GitHub section -->
 
-## Creating Repos on GitHub
+### Set up SSH for GitHub
+
+<!-- TODO Add pictures and move this to GitHub maybe -->
+```bash
+# Generate SSH key on local computer
+# Remember to replace <youremail> (no carets)
+ssh-keygen -t ed25519 -C <youremail>
+
+# GitHub -> Settings -> SSH and GPG keys -> New SSH Key
+# Copy and paste this
+cat ~/.ssh/id_ed25519.pub
+```
+
+### Creating Repos on GitHub
 
 1. Go to [GitHub](github.com).
 2. Click _new_ repo on the top left.
@@ -202,14 +207,14 @@ git commit [-m] "Commit message" # -m to add a commit message
 4. Make it public or private (be smart)
 5. Click create repository
 
-## Cloning Repos
+### Cloning Repos
 
 ```bash
 # Get the SSH link from Github (NOT THE HTTP ONE)
 git clone git@github.com:<username>/<repo-name>.git
 ```
 
-## Pushing and Pulling Changes
+### Pushing and Pulling Changes
 
 ```bash
 # Connect local repo to the remote repository on GitHub
@@ -222,9 +227,9 @@ git push --set-upstream origin main
 git push origin main
 ```
 
-<!-- TODO move these to GitHub section END -->
+<!-- TODO Move these to GitHub section END -->
 
-## .gitignore
+### .gitignore
 
 1. Create a file called `.gitignore` at the root of the repository
 2. Look at the [.gitignore templates](https://github.com/github/gitignore)
@@ -232,6 +237,6 @@ git push origin main
 
 ---
 
-### Footnotes
+## Footnotes
 
 [^1]: There are techniques of merging multiple at the [same time](https://www.geeksforgeeks.org/merge-strategies-in-git/#:~:text=Octopus%20Merge%3A,merging%20more%20than%20one%20branch.)
