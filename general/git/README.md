@@ -10,12 +10,10 @@
   - [Identification](#identification)
   - [General](#general)
 - [Usage](#usage)
+  - [The Staging Process](#the-staging-process)
   - [Initializing a git repository](#initializing-a-git-repository)
   - [Tracking Files](#tracking-files)
-  - [Set up SSH for GitHub](#set-up-ssh-for-github)
-  - [Creating Repos on GitHub](#creating-repos-on-github)
-  - [Cloning Repos](#cloning-repos)
-  - [Pushing and Pulling Changes](#pushing-and-pulling-changes)
+  - [Putting it All Together](#putting-it-all-together)
   - [.gitignore](#gitignore)
 - [Footnotes](#footnotes)
 
@@ -246,30 +244,90 @@ git config --global submodule.recurse true
 
 ## Usage
 
-Now we can begin using `git`.
+Before we can begin using `git`, there is a little more theory to know about.
 
+### The Staging Process
+
+![Git Lifetime Chart](https://git-scm.com/book/en/v2/images/lifecycle.png)
+
+In a `git` repo, there are four kinds of files.
+
+- Untracked
+  - New files
+- Unmodified
+  - Files already being tracked by `git`, but have **no changes**
+- Modified
+  - Files already being tracked by `git`, but have **changes**
+- Staged
+  - Files that are ready to be commited
+
+<!-- TODO Add an explanation on the theory -->
+
+
+<!-- TODO Add more explanation on the commands -->
 ### Initializing a git repository
 
+To create a `git` repository, it's as simple as typing the following in a directory.
+
 ```bash
-# create local git repo in current folder
+# Initialize a git repo in the current directory
 git init
 ```
 
 ### Tracking Files
 
 ```bash
-# tell git to track all files and folders in folder
+# Tell git to add all files to staging area
 git add .
+````
+
+### Commiting Changes
+
+```bash
 # commit all changes
 git commit [-m] "Commit message" # -m to add a commit message
 ```
 
+### Putting it All Together
+
+Let's create a `git` repo called `test-repo`
+
+```console
+sua@JustinPC Documents → mkdir test-repo
+mkdir: created directory 'test-repo'
+sua@JustinPC Documents → cd test-repo/
+/home/sua/Documents/test-repo
+sua@JustinPC test-repo → git init
+Initialized empty Git repository in /home/sua/Documents/test-repo/.git/
+sua@JustinPC test-repo ±|master|→ touch README.md
+sua@JustinPC test-repo ±|master ✗|→ ls
+README.md
+sua@JustinPC test-repo ±|master ✗|→ git add .
+sua@JustinPC test-repo ±|master ✗|→ git commit -m "Initial commit"
+[master (root-commit) 98532bc] Initial commit
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 README.md
+```
+
+- I create a folder called `test-repo`
+  - Note that it's not a `git` repo yet
+- I navigate inside of `test-repo`
+- I enter `git init` to initialize a repo
+  - Note the message: _Initialized empty Git repository in /home/sua/Documents/test-repo/.git/_
+  - Now `test-repo` is a `git` repo
+- I create an empty file called `README.md` using the `touch` command
+- I enter `git add .` to tell `git` to track the current directory
+  - This adds `README.md` because it is inside of the current directory
+  - `git add README.md` achieves the same thing. However, imagine if we changed a bunch of files; it might become tedious to add individual files, which is why we can add entire folders
+- Finally, `git commit -m "Initial Commit"` commits my changes
+
 <!-- TODO Move these to GitHub section -->
 
-### Set up SSH for GitHub
+<!-- ### Set up SSH for GitHub -->
 
 <!-- TODO Add pictures and move this to GitHub maybe -->
-```bash
+
+<!-- ```bash
 # Generate SSH key on local computer
 # Remember to replace <youremail> (no carets)
 ssh-keygen -t ed25519 -C <youremail>
@@ -277,24 +335,26 @@ ssh-keygen -t ed25519 -C <youremail>
 # GitHub -> Settings -> SSH and GPG keys -> New SSH Key
 # Copy and paste this
 cat ~/.ssh/id_ed25519.pub
-```
+``` --> -->
 
-### Creating Repos on GitHub
+<!-- TODO Link to GitHub section -->
+
+<!-- ### Creating Repos on GitHub
 
 1. Go to [GitHub](github.com).
 2. Click _new_ repo on the top left.
 3. Give the repository a name.
 4. Make it public or private (be smart)
-5. Click create repository
+5. Click create repository -->
 
-### Cloning Repos
+<!-- ### Cloning Repos
 
 ```bash
 # Get the SSH link from Github (NOT THE HTTP ONE)
 git clone git@github.com:<username>/<repo-name>.git
-```
+``` -->
 
-### Pushing and Pulling Changes
+<!-- ### Pushing and Pulling Changes
 
 ```bash
 # Connect local repo to the remote repository on GitHub
@@ -305,11 +365,13 @@ git remote add origin git@github.com:<username>/<repo-name>.git
 git push --set-upstream origin main
 # OR
 git push origin main
-```
+``` -->
 
 <!-- TODO Move these to GitHub section END -->
 
 ### .gitignore
+
+<!-- TODO Explain the theory behind a .gitignore -->
 
 1. Create a file called `.gitignore` at the root of the repository
 2. Look at the [.gitignore templates](https://github.com/github/gitignore)
