@@ -1,0 +1,1 @@
+this is file3.txt, which is inside of folder1
