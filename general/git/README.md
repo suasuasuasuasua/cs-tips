@@ -7,7 +7,11 @@
     - [Website Example](#website-example)
   - [Takeaways](#takeaways)
 - [Git Configurations](#git-configurations)
-  - [Local Git Repos](#local-git-repos)
+  - [Identification](#identification)
+  - [General](#general)
+- [Usage](#usage)
+  - [Initializing a git repository](#initializing-a-git-repository)
+  - [Tracking Files](#tracking-files)
   - [Set up SSH for GitHub](#set-up-ssh-for-github)
   - [Creating Repos on GitHub](#creating-repos-on-github)
   - [Cloning Repos](#cloning-repos)
@@ -162,22 +166,98 @@ Finally, using [GitHub](../github/), a couple important things are possible:
 
 ## Git Configurations
 
+Now that we are familiar with the theory behind `git`, we can set some basic configurations.
+
+### Identification
+
+First, we need to set our name and email so that `git` knows who we are each time that we commit.
+
 ```bash
 # Set your name and email so that commits can be tied to you
 git config --global user.name "Your Name"
 git config --global user.email "yourname@example.com"
+```
 
-# Don't worry too much about these; just set them
+Here is the commit history seen in three ways.
+
+1. `git log`
+
+   ```console
+   sua@JustinPC:~$ git log
+
+   commit 767ece0574ee737b2f9332a1193d7106adebcc9d
+   Author: Justin Hoang <justinhoang@mines.edu>
+   Date:   Sat Aug 6 22:52:02 2022 -0500
+
+       Cleaned up headers
+       TOC looking more accurate
+
+   commit 82488d06487770f16a957f5f8a54ee69faa8a590
+   Author: Justin Hoang <justinhoang@mines.edu>
+   Date:   Sat Aug 6 22:48:01 2022 -0500
+
+       Renamed section headers
+       Made comment to rearrange content to GitHub
+   :
+   ```
+
+   `git log` is the console command that you run. It's a little hard to digest, but it contains all of the essential information.
+
+2. GitHub
+
+   ![GitHub Commit History](./images/github_commits.png)
+
+   Here on GitHub, you can see the commits, as well as the messages and timestamps for each one. It's also a little easier to digest and understand what was going on.
+
+   On each commit, you can copy the commit hash code, check what files were added, changed, or deleted, and browse the repository **at that point in time**.
+
+   In fact, note the branch **4-git-readme**; this is the branch that I created **just** to scaffold and build this page. (_Very meta_).
+
+3. VSCode and GitLens
+
+   ![VSCode Gutter](./images/vscode_gutter.png)
+
+   VSCode even tells you how the file has changed since the last commit in the _git gutter_ to the right of the line numbers.
+
+   - Green means _addded_
+   - Blue means _modified_
+   - Red means _deleted_
+
+   However, VSCode doesn't tell you much information past those three indicators, which is where an VSCode extension called GitLens comes in.
+
+   ![Gitlens Example](./images/gitlens_example.png)
+
+   [GitLens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens) can tell you **who** committed what and **when** they made those changes. (_Also very meta_)
+
+### General
+
+These are some more useful general configurations.
+
+```bash
+# TLDR; GitHub changed the default branch to main, but git still uses master; this change aligns with GitHub conventions
 git config --global init.defaultBranch main
+
+# Adds coloring to git command line interface
 git config --global color.ui auto
+
+# Submodules are repos that are linked INSIDE repos; we have to clone these recursively
 git config --global submodule.recurse true
 ```
 
-### Local Git Repos
+## Usage
+
+Now we can begin using `git`.
+
+### Initializing a git repository
 
 ```bash
 # create local git repo in current folder
 git init
+```
+
+### Tracking Files
+
+```bash
 # tell git to track all files and folders in folder
 git add .
 # commit all changes
