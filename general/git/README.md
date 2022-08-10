@@ -180,7 +180,7 @@ Here is the commit history seen in three ways.
 
 1. `git log`
 
-   ```console
+   ```bash
    sua@JustinPC:~$ git log
 
    commit 767ece0574ee737b2f9332a1193d7106adebcc9d
@@ -293,7 +293,7 @@ git commit [-m] "Commit message" # -m to add a commit message
 
 Let's create a `git` repo called `test-repo`
 
-```console
+```bash
 sua@JustinPC Documents → mkdir test-repo
 mkdir: created directory 'test-repo'
 sua@JustinPC Documents → cd test-repo/
@@ -314,7 +314,7 @@ Here is the result from typing `git log` in the bash console.
 
 You can see the time, commit message, and hash ID.
 
-```console
+```bash
 commit 98532bccf62cf88d8e6fa854d842c73d2158685f (HEAD -> master)
 Author: Justin Hoang <justinhoang@mines.edu>
 Date:   Mon Aug 8 11:38:40 2022 -0600
