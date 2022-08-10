@@ -70,7 +70,7 @@ Here is the rundown:
 
    Here is an example run.
 
-   ```bash
+   ```console
    09:44:04 sua@JustinPC github ±|1-github-readme ✗|→ ssh-keygen -t ed25519 -C justinhoang@mines.edu
 
    Generating public/private ed25519 key pair.
@@ -105,7 +105,7 @@ Here is the rundown:
 
    Here is a sample output.
 
-   ```bash
+   ```console
    09:47:49 sua@JustinPC github ±|1-github-readme ✗|→ cat ~/.ssh/id_ed25519.pub
    ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIMpAZTJcElo8GzQlEpTbqenBdPoTcs3p79bVQCTXTwQW justinhoang@mines.edu
    ```
@@ -127,7 +127,7 @@ ssh git@github.com
 
 When prompted, say yes to continue connecting.
 
-```bash
+```console
 09:48:51 sua@JustinPC github ±|1-github-readme ✗|→ ssh git@github.com
 The authenticity of host 'github.com (140.82.113.4)' can't be established.
 ECDSA key fingerprint is SHA256:p2QAMXNIC1TJYWeIOttrVc98/R1BUFWu3/LiyKgUfQM.
