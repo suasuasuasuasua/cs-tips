@@ -217,7 +217,7 @@ Here is the commit history seen in three ways.
 
    VSCode even tells you how the file has changed since the last commit in the _git gutter_ to the right of the line numbers.
 
-   - Green means _addded_
+   - Green means _added_
    - Blue means _modified_
    - Red means _deleted_
 
@@ -259,7 +259,7 @@ In a `git` repo, there are four kinds of files.
 - Modified
   - Files already being tracked by `git`, but have **changes**
 - Staged
-  - Files that are ready to be commited
+  - Files that are ready to be committed
 
 ### Initializing a git repository
 
@@ -274,7 +274,7 @@ git init
 
 ```bash
 # Tell git to add all files to staging area
-# The staging area is where files are "waiting" to be commited
+# The staging area is where files are "waiting" to be committed
 git add .
 
 # Or you can add specific files and folders, though using '.'  is convention
@@ -282,7 +282,7 @@ git add file1
 git add folder1
 ````
 
-### Commiting Changes
+### Committing Changes
 
 ```bash
 # Commit all changes
@@ -336,54 +336,6 @@ To review:
   - This adds `README.md` because it is inside of the current directory
   - `git add README.md` achieves the same thing. However, imagine if we changed a bunch of files; it might become tedious to add individual files, which is why we can add entire folders
 - Finally, `git commit -m "Initial Commit"` commits my changes
-
-<!-- TODO Move these to GitHub section -->
-
-<!-- ### Set up SSH for GitHub -->
-
-<!-- TODO Add pictures and move this to GitHub maybe -->
-
-<!-- ```bash
-# Generate SSH key on local computer
-# Remember to replace <youremail> (no carets)
-ssh-keygen -t ed25519 -C <youremail>
-
-# GitHub -> Settings -> SSH and GPG keys -> New SSH Key
-# Copy and paste this
-cat ~/.ssh/id_ed25519.pub
-``` -->
-
-<!-- TODO Link to GitHub section -->
-
-<!-- ### Creating Repos on GitHub
-
-1. Go to [GitHub](github.com).
-2. Click _new_ repo on the top left.
-3. Give the repository a name.
-4. Make it public or private (be smart)
-5. Click create repository -->
-
-<!-- ### Cloning Repos
-
-```bash
-# Get the SSH link from Github (NOT THE HTTP ONE)
-git clone git@github.com:<username>/<repo-name>.git
-``` -->
-
-<!-- ### Pushing and Pulling Changes
-
-```bash
-# Connect local repo to the remote repository on GitHub
-# Grab this link from GitHub Repo > SSH > link
-git remote add origin git@github.com:<username>/<repo-name>.git
-# Set upstream branch so that we can push LOCAL changes to REMOTE repository
-# Might be main or master
-git push --set-upstream origin main
-# OR
-git push origin main
-``` -->
-
-<!-- TODO Move these to GitHub section END -->
 
 ### .gitignore
 
