@@ -261,13 +261,9 @@ In a `git` repo, there are four kinds of files.
 - Staged
   - Files that are ready to be commited
 
-<!-- TODO Add an explanation on the theory -->
-
-
-<!-- TODO Add more explanation on the commands -->
 ### Initializing a git repository
 
-To create a `git` repository, it's as simple as typing the following in a directory.
+To create a `git` repository, type the following in a directory.
 
 ```bash
 # Initialize a git repo in the current directory
@@ -278,13 +274,18 @@ git init
 
 ```bash
 # Tell git to add all files to staging area
+# The staging area is where files are "waiting" to be commited
 git add .
+
+# Or you can add specific files and folders, though using '.'  is convention
+git add file1
+git add folder1
 ````
 
 ### Commiting Changes
 
 ```bash
-# commit all changes
+# Commit all changes
 git commit [-m] "Commit message" # -m to add a commit message
 ```
 
@@ -308,6 +309,21 @@ sua@JustinPC test-repo ±|master ✗|→ git commit -m "Initial commit"
  1 file changed, 0 insertions(+), 0 deletions(-)
  create mode 100644 README.md
 ```
+
+Here is the result from typing `git log` in the bash console.
+
+You can see the time, commit message, and hash ID.
+
+```console
+commit 98532bccf62cf88d8e6fa854d842c73d2158685f (HEAD -> master)
+Author: Justin Hoang <justinhoang@mines.edu>
+Date:   Mon Aug 8 11:38:40 2022 -0600
+
+    Initial commit
+(END)
+```
+
+To review:
 
 - I create a folder called `test-repo`
   - Note that it's not a `git` repo yet
@@ -335,7 +351,7 @@ ssh-keygen -t ed25519 -C <youremail>
 # GitHub -> Settings -> SSH and GPG keys -> New SSH Key
 # Copy and paste this
 cat ~/.ssh/id_ed25519.pub
-``` --> -->
+``` -->
 
 <!-- TODO Link to GitHub section -->
 
@@ -371,7 +387,9 @@ git push origin main
 
 ### .gitignore
 
-<!-- TODO Explain the theory behind a .gitignore -->
+Sometimes, there are files in your `git` repo that do not need to be tracked, lie build files or configurations.
+
+These are usually specific to your computer or preference. If you're working in a team, not everyone will need these files.
 
 1. Create a file called `.gitignore` at the root of the repository
 2. Look at the [.gitignore templates](https://github.com/github/gitignore)
