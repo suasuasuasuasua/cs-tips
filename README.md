@@ -1,4 +1,4 @@
-# [compsci-tips](suasuasuasuasua.github.io/compsci-tips/)
+# [compsci-tips](https://suasuasuasuasua.github.io/compsci-tips/)
 
 <p align="center">
   <img src="https://i.kym-cdn.com/photos/images/newsfeed/001/562/650/cd0.jpg" />
