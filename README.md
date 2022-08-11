@@ -7,7 +7,6 @@
 Coding is for the boys.
 
 - [Discord](https://discord.gg/G8CUV5W6Km)
-- [Check out the Odin Project journey](https://github.com/suasuasuasuasua/odin-project)
 
 ---
 
