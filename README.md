@@ -1,4 +1,4 @@
-# [coding-tips](https://suasuasuasuasua.github.io/coding-tips/)
+# [compsci-tips](https://suasuasuasuasua.github.io/compsci-tips/)
 
 <p align="center">
   <img src="https://i.kym-cdn.com/photos/images/newsfeed/001/562/650/cd0.jpg" />
@@ -7,7 +7,6 @@
 Coding is for the boys.
 
 - [Discord](https://discord.gg/G8CUV5W6Km)
-- [Check out the Odin Project journey](https://github.com/suasuasuasuasua/odin-project)
 
 ---
 
@@ -23,12 +22,12 @@ Material will be updated regularly and tagged:
 
 ## Programming Languages
 
-- [bash](./programming-languages/bash/) !*
-<!-- - [c](c/) ? -->
-<!-- - [c++](cpp/) ? -->
-<!-- - [c#](cs/) ? -->
-<!-- - [java](java/) ? -->
-<!-- - [javascript](javascript/) ? -->
+- [bash](./programming-languages/bash/) !\*
+  <!-- - [c](c/) ? -->
+  <!-- - [c++](cpp/) ? -->
+  <!-- - [c#](cs/) ? -->
+  <!-- - [java](java/) ? -->
+  <!-- - [javascript](javascript/) ? -->
 - [python](./programming-languages/python/) !?
 
 ## Markup Languages
@@ -40,7 +39,7 @@ Material will be updated regularly and tagged:
 ## General
 
 - [git](./general/git/) !
-<!-- - [GitHub](github/) !? -->
+- [GitHub](./general/github/) !?
 
 ## Tools
 
