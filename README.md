@@ -25,7 +25,7 @@ flowchart TB
   start --> editors
   start-->|Windows Users| wsl
 
-  subgraph BasicsGraphs[" "]
+  subgraph BasicsGraphs[Basics]
     direction TB
 
     subgraph SetupGraph[" "]
@@ -43,10 +43,20 @@ flowchart TB
     
   %% end %% Languages
 
-  click start "https://github.com/suasuasuasuasua/compsci-tips/tree/main/setup"
+  click start "https://github.com/suasuasuasuasua/compsci-tips/tree/main/setup/basics"
+  click editors "https://github.com/suasuasuasuasua/compsci-tips/tree/main/editors"
   click bash "https://github.com/suasuasuasuasua/compsci-tips/tree/main/programming-languages/bash"
-  click git "https://github.com/suasuasuasuasua/compsci-tips/tree/main/general/git"
-  click github "https://github.com/suasuasuasuasua/compsci-tips/tree/main/general/github"
+  click git "https://github.com/suasuasuasuasua/compsci-tips/tree/main/git(hub)/git"
+  click github "https://github.com/suasuasuasuasua/compsci-tips/tree/main/git(hub)/github"
 ```
 
----
+## Tree View
+
+### Basics
+
+- [Setup](./setup/basics/)
+  - For Windows Users: [WSL](./setup/wsl/)
+- [Code Editors](./editors/)
+- [bash](./programming-languages/bash/)
+- [git](./git(hub)/git/)
+- [GitHub](./git(hub)/github/)
