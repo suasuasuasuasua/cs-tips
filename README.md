@@ -4,8 +4,6 @@
   <img src="https://i.kym-cdn.com/photos/images/newsfeed/001/562/650/cd0.jpg" />
 </p>
 
-Testing GitHub bot.
-
 Coding is for the boys.
 
 - [Discord](https://discord.gg/G8CUV5W6Km)
