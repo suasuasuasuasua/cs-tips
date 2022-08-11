@@ -4,62 +4,44 @@
   <img src="https://i.kym-cdn.com/photos/images/newsfeed/001/562/650/cd0.jpg" />
 </p>
 
-Coding is for the boys.
-
-- [Discord](https://discord.gg/G8CUV5W6Km)
-
 ---
 
-Material will be updated regularly and tagged:
+```mermaid
+flowchart TB
+  %% Definitions
+  start[Start Here]
+  wsl[WSL]
+  bash[bash]
+  git[git]
+  github[GitHub]
+  editors[Code Editors]
 
-- ! [^1]
-- \* [^2]
-- ? [^3]
+  %% Begin
+  start --> editors
+  start-->|Windows Users| wsl
 
-## Setup (IF YOU ARE NEW, DO THIS FIRST)
+  subgraph BasicsGraphs[" "]
+    direction TB
 
-- [Setup](setup/) !
+    subgraph SetupGraph[" "]
+      direction LR
+      git --> github
+    end %% SetupGraph
 
-## Programming Languages
+    wsl --> editors
+    editors --> bash
+    bash --> SetupGraph
+  end %% Basics
 
-- [bash](./programming-languages/bash/) !\*
-  <!-- - [c](c/) ? -->
-  <!-- - [c++](cpp/) ? -->
-  <!-- - [c#](cs/) ? -->
-  <!-- - [java](java/) ? -->
-  <!-- - [javascript](javascript/) ? -->
-- [python](./programming-languages/python/) !?
+  %% subgraph LanguagesGraphs[" "]
+    %% direction TB
+    
+  %% end %% Languages
 
-## Markup Languages
-
-<!-- - [markdown](md/) ? -->
-<!-- - [html and css](htmlncss/) ? -->
-<!-- - [LaTeX](latex/) ? -->
-
-## General
-
-- [git](./general/git/) !
-- [GitHub](./general/github/) !?
-
-## Tools
-
-<!-- - [Text Editors](texteditors/) !? -->
-<!-- - [IDEs](ides/) ? -->
-
-## Resources
-
-<!-- - [YouTube Channels](youtube/) ? -->
-<!-- - [Online Courses](onlinecourses/) ? -->
-
-## Advanced
-
-<!-- - [vim](vim/) ? -->
-<!-- - [Discrete Math](discretemath/) ? -->
+  click start "https://github.com/suasuasuasuasua/compsci-tips/tree/main/setup"
+  click bash "https://github.com/suasuasuasuasua/compsci-tips/tree/main/programming-languages/bash"
+  click git "https://github.com/suasuasuasuasua/compsci-tips/tree/main/general/git"
+  click github "https://github.com/suasuasuasuasua/compsci-tips/tree/main/general/github"
+```
 
 ---
-
-### Footnotes
-
-[^1]: **Essential.** Do these first.
-[^2]: **Work in Progress.** We are working on filling out these topics.
-[^3]: **Coming Soon.** These topics are on the roadmap.
