@@ -11,6 +11,8 @@
 
 The nodes in the flowchart can be clicked on. Try it!
 
+(_for Pages users, click on the title to view the flowchart_)
+
 ```mermaid
 flowchart TB
   %% Definitions
@@ -44,6 +46,7 @@ flowchart TB
   %% end %% Languages
 
   click start "https://github.com/suasuasuasuasua/compsci-tips/tree/main/setup/basics"
+  click start "https://github.com/suasuasuasuasua/compsci-tips/tree/main/setup/wsl"
   click editors "https://github.com/suasuasuasuasua/compsci-tips/tree/main/editors"
   click bash "https://github.com/suasuasuasuasua/compsci-tips/tree/main/programming-languages/bash"
   click git "https://github.com/suasuasuasuasua/compsci-tips/tree/main/git(hub)/git"
