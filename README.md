@@ -6,6 +6,11 @@
 
 ---
 
+<!-- Allow people to click the link to go back to the repo from the GitHub Pages -->
+## [Flowchart](https://github.com/suasuasuasuasua/compsci-tips#flowchart)
+
+The nodes in the flowchart can be clicked on. Try it!
+
 ```mermaid
 flowchart TB
   %% Definitions
