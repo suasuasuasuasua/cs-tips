@@ -7,6 +7,7 @@
     - [Website Example](#website-example)
   - [Takeaways](#takeaways)
 - [Git Configurations](#git-configurations)
+  - [Update](#update)
   - [Identification](#identification)
   - [General](#general)
 - [Usage](#usage)
@@ -165,6 +166,17 @@ Finally, using [GitHub](../github/), a couple important things are possible:
 ## Git Configurations
 
 Now that we are familiar with the theory behind `git`, we can set some basic configurations.
+
+### Updates
+
+```bash
+# Ubuntu/Debian doesn't have the latest version of git in their default packaging system
+# We'll add git's official stream, which contains up-to-date versions of git
+sudo add-apt-repository ppa:git-core/ppa
+
+# Retrieves new packages, then install them
+sudo apt update && sudo apt upgrade
+```
 
 ### Identification
 
