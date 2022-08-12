@@ -21,7 +21,7 @@ bash -c "$(curl -fsSL https://raw.githubusercontent.com/ohmybash/oh-my-bash/mast
 Assume the following file structure.
 
 ```bash
-. # coding-tips/bash/.
+. # coding-tips/programming-languages/bash/.
 ├── README.md
 ├── file1.txt
 ├── file2.txt
@@ -54,12 +54,12 @@ flowchart LR
 - `.` refers to the current directory
 - `..` refers to the parent directory
 
-If we are currently in `~/coding-tips/bash/`, to get to `file3.txt`, there are two ways to talk about where `file3.txt` is:
+If we are currently in `~/coding-tips/programming-languages/bash/`, to get to `file3.txt`, there are two ways to talk about where `file3.txt` is:
 
 - Relative pathing is the path **from your current directory**
   - `./folder1/file3.txt`
 - Absolute pathing is the path from a **defined starting point**
-  - `~/coding-tips/bash/folder1/file3.txt`
+  - `~/coding-tips/programming-languages/bash/folder1/file3.txt`
 
 ```bash
 # Move to home directory at /~/
