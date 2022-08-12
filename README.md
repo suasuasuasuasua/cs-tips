@@ -1,66 +1,65 @@
-# [coding-tips](https://suasuasuasuasua.github.io/coding-tips/)
+# [compsci-tips](https://suasuasuasuasua.github.io/compsci-tips/)
 
 <p align="center">
   <img src="https://i.kym-cdn.com/photos/images/newsfeed/001/562/650/cd0.jpg" />
 </p>
 
-Coding is for the boys.
-
-- [Discord](https://discord.gg/G8CUV5W6Km)
-- [Check out the Odin Project journey](https://github.com/suasuasuasuasua/odin-project)
-
 ---
 
-Material will be updated regularly and tagged:
+<!-- Allow people to click the link to go back to the repo from the GitHub Pages -->
+## [Flowchart](https://github.com/suasuasuasuasua/compsci-tips#flowchart)
 
-- ! [^1]
-- \* [^2]
-- ? [^3]
+The nodes in the flowchart can be clicked on. Try it!
 
-## Setup (IF YOU ARE NEW, DO THIS FIRST)
+(_for Pages users, click on the title to view the flowchart_)
 
-- [Setup](setup/) !
+```mermaid
+flowchart TB
+  %% Definitions
+  start[Start Here]
+  wsl[WSL]
+  bash[bash]
+  git[git]
+  github[GitHub]
+  editors[Code Editors]
 
-## Programming Languages
+  %% Begin
+  start --> editors
+  start-->|Windows Users| wsl
 
-- [bash](./programming-languages/bash/) !\*
-  <!-- - [c](c/) ? -->
-  <!-- - [c++](cpp/) ? -->
-  <!-- - [c#](cs/) ? -->
-  <!-- - [java](java/) ? -->
-  <!-- - [javascript](javascript/) ? -->
-- [python](./programming-languages/python/) !?
+  subgraph BasicsGraphs[Basics]
+    direction TB
 
-## Markup Languages
+    subgraph SetupGraph[" "]
+      direction LR
+      git --> github
+    end %% SetupGraph
 
-<!-- - [markdown](md/) ? -->
-<!-- - [html and css](htmlncss/) ? -->
-<!-- - [LaTeX](latex/) ? -->
+    wsl --> editors
+    editors --> bash
+    bash --> SetupGraph
+  end %% Basics
 
-## General
+  %% subgraph LanguagesGraphs[" "]
+    %% direction TB
+    
+  %% end %% Languages
 
-- [git](./general/git/) !
-- [GitHub](./general/github/) !?
+  click start "https://github.com/suasuasuasuasua/compsci-tips/tree/main/setup/basics"
+  click wsl "https://github.com/suasuasuasuasua/compsci-tips/tree/main/setup/wsl"
+  click editors "https://github.com/suasuasuasuasua/compsci-tips/tree/main/editors"
+  click bash "https://github.com/suasuasuasuasua/compsci-tips/tree/main/programming-languages/bash"
+  click git "https://github.com/suasuasuasuasua/compsci-tips/tree/main/git(hub)/git"
+  click github "https://github.com/suasuasuasuasua/compsci-tips/tree/main/git(hub)/github"
+```
 
-## Tools
+## Tree View
 
-<!-- - [Text Editors](texteditors/) !? -->
-<!-- - [IDEs](ides/) ? -->
+### Basics
 
-## Resources
-
-<!-- - [YouTube Channels](youtube/) ? -->
-<!-- - [Online Courses](onlinecourses/) ? -->
-
-## Advanced
-
-<!-- - [vim](vim/) ? -->
-<!-- - [Discrete Math](discretemath/) ? -->
-
----
-
-### Footnotes
-
-[^1]: **Essential.** Do these first.
-[^2]: **Work in Progress.** We are working on filling out these topics.
-[^3]: **Coming Soon.** These topics are on the roadmap.
+- [Setup](./setup/basics/)
+  - For Windows Users: [WSL](./setup/wsl/)
+- [Code Editors](./editors/)
+- [bash](./programming-languages/bash/)
+- [git](./git(hub)/git/)
+- [GitHub](./git(hub)/github/)
