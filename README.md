@@ -46,7 +46,7 @@ flowchart TB
   %% end %% Languages
 
   click start "https://github.com/suasuasuasuasua/compsci-tips/tree/main/setup/basics"
-  click wsl "https://github.com/suasuasuasuasua/compsci-tips/tree/main/setup/wsl"
+  click wsl "https://github.com/suasuasuasuasua/compsci-tips/tree/main/setup/WSL"
   click editors "https://github.com/suasuasuasuasua/compsci-tips/tree/main/editors"
   click bash "https://github.com/suasuasuasuasua/compsci-tips/tree/main/programming-languages/bash"
   click git "https://github.com/suasuasuasuasua/compsci-tips/tree/main/git(hub)/git"
@@ -58,7 +58,7 @@ flowchart TB
 ### Basics
 
 - [Setup](./setup/basics/)
-  - For Windows Users: [WSL](./setup/wsl/)
+  - For Windows Users: [WSL](./setup/WSL/)
 - [Code Editors](./editors/)
 - [bash](./programming-languages/bash/)
 - [git](./git(hub)/git/)
