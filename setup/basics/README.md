@@ -1,3 +1,4 @@
+
 # Setup
 
 - [Introduction](#introduction)
@@ -150,8 +151,6 @@ Don't worry that my VSCode looks different than yours. I customized mine with th
 ## Setup Finished (for now)
 
 At this point, this is all you really need; plus, your machine is now ready to program!
-
-In the future, I'll add a dedicated VSCode section to cover useful extensions, settings, and keyboard shortcuts.
 
 ### Themes
 
