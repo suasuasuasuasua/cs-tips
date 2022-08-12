@@ -193,7 +193,7 @@ Here is the commit history seen in three ways.
 1. `git log`
 
    ```console
-   sua@JustinPC:~$ git log
+   sua@JustinPC:$ git log
 
    commit 767ece0574ee737b2f9332a1193d7106adebcc9d
    Author: Justin Hoang <justinhoang@mines.edu>
@@ -306,17 +306,17 @@ git commit [-m] "Commit message" # -m to add a commit message
 Let's create a `git` repo called `test-repo`
 
 ```console
-sua@JustinPC:~$ Documents → mkdir test-repo
+sua@JustinPC:$ Documents → mkdir test-repo
 mkdir: created directory 'test-repo'
-sua@JustinPC:~$ Documents → cd test-repo/
+sua@JustinPC:$ Documents → cd test-repo/
 /home/sua/Documents/test-repo
-sua@JustinPC~$ test-repo → git init
+sua@JustinPC:$ test-repo → git init
 Initialized empty Git repository in /home/sua/Documents/test-repo/.git/
-sua@JustinPC~$ test-repo ±|master|→ touch README.md
-sua@JustinPC~$ test-repo ±|master ✗|→ ls
+sua@JustinPC:$ test-repo ±|master|→ touch README.md
+sua@JustinPC:$ test-repo ±|master ✗|→ ls
 README.md
-sua@JustinPC~$ test-repo ±|master ✗|→ git add .
-sua@JustinPC~$ test-repo ±|master ✗|→ git commit -m "Initial commit"
+sua@JustinPC:$ test-repo ±|master ✗|→ git add .
+sua@JustinPC:$ test-repo ±|master ✗|→ git commit -m "Initial commit"
 [master (root-commit) 98532bc] Initial commit
  1 file changed, 0 insertions(+), 0 deletions(-)
  create mode 100644 README.md
@@ -327,7 +327,7 @@ Here is the result from typing `git log` in the bash console.
 You can see the time, commit message, and hash ID.
 
 ```console
-sua@JustinPC~$ test-repo ±|master ✗|→ git log
+sua@JustinPC:$ test-repo ±|master ✗|→ git log
 
 commit 98532bccf62cf88d8e6fa854d842c73d2158685f (HEAD -> master)
 Author: Justin Hoang <justinhoang@mines.edu>
