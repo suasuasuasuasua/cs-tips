@@ -312,11 +312,11 @@ sua@JustinPC:$ Documents → cd test-repo/
 /home/sua/Documents/test-repo
 sua@JustinPC:$ test-repo → git init
 Initialized empty Git repository in /home/sua/Documents/test-repo/.git/
-sua@JustinPC:$ test-repo ±|master|→ touch README.md
-sua@JustinPC:$ test-repo ±|master ✗|→ ls
+sua@JustinPC:$ test-repo → touch README.md
+sua@JustinPC:$ test-repo → ls
 README.md
-sua@JustinPC:$ test-repo ±|master ✗|→ git add .
-sua@JustinPC:$ test-repo ±|master ✗|→ git commit -m "Initial commit"
+sua@JustinPC:$ test-repo → git add .
+sua@JustinPC:$ test-repo → git commit -m "Initial commit"
 [master (root-commit) 98532bc] Initial commit
  1 file changed, 0 insertions(+), 0 deletions(-)
  create mode 100644 README.md
@@ -327,7 +327,7 @@ Here is the result from typing `git log` in the bash console.
 You can see the time, commit message, and hash ID.
 
 ```console
-sua@JustinPC:$ test-repo ±|master ✗|→ git log
+sua@JustinPC:$ test-repo → git log
 
 commit 98532bccf62cf88d8e6fa854d842c73d2158685f (HEAD -> master)
 Author: Justin Hoang <justinhoang@mines.edu>
