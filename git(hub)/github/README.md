@@ -136,7 +136,7 @@ ssh git@github.com
 When prompted, say yes to continue connecting.
 
 ```console
-09:48:51 sua@JustinPC:$ github ±|1-github-readme ✗|→ ssh git@github.com
+sua@JustinPC:$ github ±|1-github-readme ✗|→ ssh git@github.com
 The authenticity of host 'github.com (140.82.113.4)' can't be established.
 ECDSA key fingerprint is SHA256:p2QAMXNIC1TJYWeIOttrVc98/R1BUFWu3/LiyKgUfQM.
 Are you sure you want to continue connecting (yes/no/[fingerprint])? yes
@@ -196,7 +196,7 @@ git clone git@github.com:<username>/<repo-name>.git
 Here's an example run of cloning this repo.
 
 ```console
-10:31:34 sua@JustinPC:$ ~ → git clone git@github.com:suasuasuasuasua/compsci-tips.git
+sua@JustinPC:$ ~ → git clone git@github.com:suasuasuasuasua/compsci-tips.git
 Cloning into 'compsci-tips'...
 remote: Enumerating objects: 454, done.
 remote: Counting objects: 100% (161/161), done.
@@ -204,7 +204,7 @@ remote: Compressing objects: 100% (131/131), done.
 remote: Total 454 (delta 44), reused 77 (delta 21), pack-reused 293
 Receiving objects: 100% (454/454), 3.17 MiB | 3.67 MiB/s, done.
 Resolving deltas: 100% (171/171), done.
-10:32:17 sua@JustinPC ~ → ls
+sua@JustinPC:$ ~ → ls
 Documents  compsci-tips
                  |___________ Here's the repo!
 ```
@@ -233,28 +233,24 @@ git push -u origin main
 Here is an example run of me creating a local repo, then connecting it to GitHub.
 
 ```console
-10:59:35 sua@JustinPC:$ ~ → mkdir my_repo
+sua@JustinPC:$ ~ → mkdir my_repo
 mkdir: created directory 'my_repo'
-10:59:39 sua@JustinPC:$ ~ → cd my_repo/
+sua@JustinPC:$ ~ → cd my_repo/
 /home/sua/my_repo
-10:59:40 sua@JustinPC:$ my_repo → git init
+sua@JustinPC:$ my_repo → git init
 Initialized empty Git repository in /home/sua/my_repo/.git/
-10:59:41 sua@JustinPC:$ my_repo ±|main|→ touch README.md
-10:59:45 sua@JustinPC:$ my_repo ±|main ✗|→ git add README.md 
-10:59:50 sua@JustinPC:$ my_repo ±|main ✗|→ git commit -m "Initial Commit"
-[main (root-commit) d73283e] Initial Commit
+sua@JustinPC:$ my_repo ±|main|→ touch README.md
+sua@JustinPC:$ my_repo ±|main ✗|→ git add README.md 
+sua@JustinPC:$ my_repo ±|main ✗|→ git commit -m "Initial Commit"
+[main (root-commit) bb22b1b] Initial Commit
  1 file changed, 0 insertions(+), 0 deletions(-)
  create mode 100644 README.md
-10:59:55 sua@JustinPC:$ my_repo ±|main|→ git remote add origin git@github.com:suasuasuasuasua/my_repo.git
-11:00:05 sua@JustinPC:$ my_repo ±|main|→ git push -u origin main
+sua@JustinPC:$ my_repo ±|main|→ git remote add origin git@github.com:suasuasuasuasua/my_repo.git
+sua@JustinPC:$ my_repo ±|main|→ git push -u origin main
 Enumerating objects: 3, done.
 Counting objects: 100% (3/3), done.
-Writing objects: 100% (3/3), 217 bytes | 217.00 KiB/s, done.
+Writing objects: 100% (3/3), 218 bytes | 218.00 KiB/s, done.
 Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
-remote: 
-remote: Create a pull request for 'main' on GitHub by visiting:
-remote:      https://github.com/suasuasuasuasua/my_repo/pull/new/main
-remote: 
 To github.com:suasuasuasuasua/my_repo.git
  * [new branch]      main -> main
 branch 'main' set up to track 'origin/main'.
@@ -267,7 +263,7 @@ If you clone the repo from GitHub, then you can avoid the hassle of [existing re
 You can copy the SSH link from GitHub and clone directly.
 
 ```console
-11:03:42 sua@JustinPC:$ ~ → git clone git@github.com:suasuasuasuasua/my_repo.git
+sua@JustinPC:$ ~ → git clone git@github.com:suasuasuasuasua/my_repo.git
 Cloning into 'my_repo'...
 remote: Enumerating objects: 4, done.
 remote: Counting objects: 100% (4/4), done.
