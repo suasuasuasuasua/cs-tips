@@ -1,17 +1,12 @@
-# [compsci-tips](https://suasuasuasuasua.github.io/compsci-tips/)
+# compsci-tips
 
 <p align="center">
   <img src="https://i.kym-cdn.com/photos/images/newsfeed/001/562/650/cd0.jpg" />
 </p>
 
----
-
-<!-- Allow people to click the link to go back to the repo from the GitHub Pages -->
-## [Flowchart](https://github.com/suasuasuasuasua/compsci-tips#flowchart)
+## Flowchart
 
 The nodes in the flowchart can be clicked on. Try it!
-
-(_for Pages users, click on the title to view the flowchart_)
 
 ```mermaid
 flowchart TB
